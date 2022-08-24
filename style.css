@@ -1,0 +1,299 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Rajdhani", sans-serif;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("./assets/bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+nav {
+  background: rgb(114, 165, 231);
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0px auto;
+  border-radius: 0 0 20px 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.486);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+nav h1 {
+  text-shadow: 1px 1px 2px white;
+}
+
+nav img {
+  width: 80px;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+nav img:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+.logo-titre {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+
+.links-nav a {
+  color: black;
+  font-size: 20px;
+  padding: 5px 20px;
+  transition: 0.5s;
+}
+
+.links-nav a:hover {
+  background-color: rgba(255, 255, 255, 0.274);
+  border-radius: 25px;
+  transition: 0.5s;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0px auto 20px;
+  gap: 2%;
+  justify-content: center;
+}
+
+.header h2,
+.header h3,
+.header p {
+  margin-bottom: 5px;
+}
+
+.header h2 {
+  border-bottom: 1px solid gray;
+}
+
+.header header {
+  width: 56%;
+  background: rgba(255, 255, 255, 0.76);
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.486);
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.header aside {
+  width: 42%;
+  background: rgba(255, 255, 255, 0.76);
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.486);
+  border-radius: 20px;
+  padding: 15px;
+  text-align: left;
+}
+
+.header aside p {
+  margin-bottom: 5px;
+}
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: center;
+  margin: auto;
+  gap: 2%;
+}
+
+.article {
+  margin-top: 0px;
+  width: 49%;
+  text-align: left;
+}
+
+.article h2 {
+  border-bottom: 1px solid gray;
+  margin-bottom: 5px;
+}
+
+.google-carte iframe {
+  border: 2px solid white;
+  border-radius: 0px 0px 20px 20px;
+  width: 100%;
+  height: 34%;
+}
+
+.visite-guidee {
+  width: 80%;
+  text-align: center;
+  font-size: 40px;
+  border-bottom: 1px solid white;
+  color: white;
+  text-shadow: 1px 1px 2px rgb(251, 255, 0), 0 0 1em rgb(81, 255, 0), 0 0 0.2em rgb(72, 255, 0);
+  margin: 0 auto 40px;
+  color: white;
+  text-shadow: 2px 2px 1px black;
+}
+
+.section-site {
+  width: 55%;
+  text-align: center;
+  font-size: 40px;
+  border-bottom: 1px solid white;
+  margin: 0 auto 40px;
+  text-align: left;
+  color: white;
+  text-shadow: 2px 2px 1px black;
+}
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 55%;
+  background-color: rgba(255, 255, 255, 0.76);
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.486);
+  justify-items: center;
+  margin: 0 auto 25px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 15px;
+}
+
+article h2, article p {
+  text-align: left;
+}
+
+.text-e {
+  padding: 0 10px;
+}
+
+.text-e h2 {
+  font-size: 30px;
+  border-bottom: 1px solid gray;
+  margin: 5px 0 10px;
+}
+
+.text-e p {
+  margin-bottom: 10px;
+}
+
+.img-e {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-e div {
+  width: 50%;
+}
+
+.img-e div img {
+  width: 98%;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.493);
+}
+
+.img-e3 img {
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.493);
+}
+
+.carte-i {
+  width: 100%;
+}
+
+.text-i {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px 10px;
+  text-align: left;
+}
+
+.text-i p {
+  margin-top: 10px;
+}
+
+.text-i h2 {
+  margin-top: 0;
+  font-size: 30px;
+  border-bottom: 1px solid gray;
+}
+
+.img-i {
+  width: 100%;
+}
+
+.carte-i img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.493);
+}
+
+footer {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.76);
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  nav {
+    width: 95%;
+  }
+  .header {
+    width: 95%;
+    margin-bottom: 30px;
+  }
+  .header header {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .header aside {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .visite-guidee {
+    width: 95%;
+  }
+  .section-site {
+    width: 95%;
+  }
+  .articles {
+    width: 95%;
+  }
+  .article {
+    width: 100%;
+  }
+  article {
+    width: 95%;
+  }
+  .carte-i {
+    flex-direction: column;
+  }
+  .text-i {
+    width: 100%;
+  }
+  .img-i {
+    width: 100%;
+  }
+  .img-e div {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .img-e3 img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
